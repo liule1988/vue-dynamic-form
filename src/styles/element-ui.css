@@ -1,0 +1,22 @@
+.el-form-item {
+  margin-bottom: 0px;
+}
+
+.el-form-item__content > div {
+  margin-left: 10px;
+}
+
+.el-form-item__error {
+  display: inline-block;
+  position: static;
+}
+
+.el-form-item.is-required .el-form-item__label:after {
+  content: '*';
+  color: #ff4949;
+  margin-left: 2px;
+}
+.el-form-item.is-required .el-form-item__label:before {
+  content: '';
+  margin: 0;
+}
